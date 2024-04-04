@@ -1,0 +1,8 @@
+mkdir
+__vsc_prompt_cmd_original
+mkdir number_guessing_game
+cd number_guessing_game
+mkdir number_guess.sh
+rm -rf number_guess.sh
+touch number_guess.sh
+chmod 777 number_guess.sh
