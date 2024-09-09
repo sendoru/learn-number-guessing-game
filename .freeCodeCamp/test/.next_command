@@ -1,0 +1,182 @@
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=postgres
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+exit
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+__vsc_regex_environment="^CYGWIN*|MINGW*|MSYS*"
+[[ "$(uname -s)" =~ $__vsc_regex_environment ]]
+__vsc_is_windows=0
+__vsc_regex_histcontrol=".*(erasedups|ignoreboth|ignoredups).*"
+[[ "$HISTCONTROL" =~ $__vsc_regex_histcontrol ]]
+__vsc_history_verify=1
+builtin unset __vsc_regex_environment
+builtin unset __vsc_regex_histcontrol
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+__vsc_stable="$VSCODE_STABLE"
+unset VSCODE_STABLE
+[ "$__vsc_stable" = "0" ]
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+V
+psql --username=freecodecamp --dbname=postgres
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+__vsc_regex_environment="^CYGWIN*|MINGW*|MSYS*"
+[[ "$(uname -s)" =~ $__vsc_regex_environment ]]
+__vsc_is_windows=0
+__vsc_regex_histcontrol=".*(erasedups|ignoreboth|ignoredups).*"
+[[ "$HISTCONTROL" =~ $__vsc_regex_histcontrol ]]
+__vsc_history_verify=1
+builtin unset __vsc_regex_environment
+builtin unset __vsc_regex_histcontrol
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+__vsc_stable="$VSCODE_STABLE"
+unset VSCODE_STABLE
+[ "$__vsc_stable" = "0" ]
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+mkdir number_guessing_game
+cd number_guessing_game/
+touch number_guess.sh
+chmod +x ./number_guess.sh
+code ./number_guess.sh
+git init
+git branch -m main
+git stage -A
+git commit -m "Initial commit"
+random
+rand
+rd
+randint
+ri
+ri --help
+RANDOM
+$((1 + RANDOM % 100))
+$((1 + RANDOM % 100))
+__vsc_prompt_cmd_original
+$(RANDOM)
+$((RANDOM))
+$((RANDOM))
+__vsc_prompt_cmd_original
+$((RANDOM))
+$((RANDOM))
+$((RANDOM))
+$((RANDOM))
+$((RANDOM))
+$((RANDOM))
+$((RANDOM))
+$((RANDOM))
+$((RANDOM))
+$((RANDOM))
+$((RANDOM))
+__vsc_prompt_cmd_original
+$((RANDOM))
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+git stage -A
+git commit -m "fix: add random number generation and username input"
+try
+try=0
+try=(try+1)
+try
+try
+try
+$tryu
+$try
+try=0
+try=($try+1)
+$try
+try=0
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+$($try + 1)
+__vsc_prompt_cmd_original
+try=($(tr)y+1)
+try=($(try)+1)
+try=1+1
+$try
+__vsc_prompt_cmd_original
+$(1+1)
+__vsc_prompt_cmd_original
+((1 + 1))
+$((1 + 1))
+$try
+try=1
+try+=1
+$try
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+try+=1
+$try
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+try+=$(( 1 ))
+$try
+try+=$((1))
+$try
+try=$(($try + 1))
+$try
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+git stage -A
+git commit -m "fix: add guessing logic"
+git log
+git show-branch
+git show
+git lg
+git branch
+git status
+git branch
+git branch
+git stage -A
+git commit -m "fix: add quotations into echoed string"
+git stage -A
+git commit -m "fix: add db insert and update"

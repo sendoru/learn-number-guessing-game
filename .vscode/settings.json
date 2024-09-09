@@ -9,7 +9,6 @@
     "source.fixAll": "explicit"
   },
   "editor.hover.enabled": false,
-  "editor.inlineSuggest.enabled": false,
   "editor.minimap.enabled": false,
   "editor.parameterHints.enabled": false,
   "editor.quickSuggestions": {
@@ -90,7 +89,7 @@
     }
   },
   "workbench.iconTheme": null,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "workbench.tips.enabled": false,
   "workbench.tree.renderIndentGuides": "none",
   "zenMode.centerLayout": false
