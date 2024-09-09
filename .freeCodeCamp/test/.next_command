@@ -180,3 +180,12 @@ git stage -A
 git commit -m "fix: add quotations into echoed string"
 git stage -A
 git commit -m "fix: add db insert and update"
+cd ..
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+./number_guess.sh
+cd number_guessing_game/
+./number_guess.sh
+git stage -A
+git commit -m "fix: wrong comparison echo message"
+./number_guess.sh
