@@ -189,3 +189,5 @@ cd number_guessing_game/
 git stage -A
 git commit -m "fix: wrong comparison echo message"
 ./number_guess.sh
+cd ..
+git push --force
